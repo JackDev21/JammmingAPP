@@ -1,7 +1,9 @@
 // Declaración de variables
 let accessToken = ""; // Almacena el token de acceso
 const clientID = "e4429e2e217b4c8b8fd6c5e3fae665d3"; // ID de cliente de la aplicación en Spotify
-const redirectUrl = "http://localhost:3000/"; // URL de redireccionamiento después de la autorización en Spotify
+//const redirectUrl = "http://localhost:3000/"; // URL de redireccionamiento después de la autorización en Spotify
+const redirectUrl =
+	"https://65cb89bdbb7e141527b51eab--imaginative-pavlova-7e620e.netlify.app/";
 
 // Objeto Spotify que contiene métodos para interactuar con la API de Spotify
 const Spotify = {
