@@ -1,3 +1,5 @@
+# API de Spotify para crear un sitio web que permita a los usuarios buscar en la biblioteca de Spotify, crear una lista de reproducción personalizada y luego guardarla en su cuenta de Spotify.
+
 # Getting Started with Create React App 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
