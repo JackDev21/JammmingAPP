@@ -1,0 +1,48 @@
+/*Barra Busqueda*/
+
+.SearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px;
+  padding: 10px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.SearchInput {
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.SearchButton {
+  margin-top: 30px;
+  background-color: #1db954;
+  /* Color de fondo del botón */
+  color: #fff;
+  /* Color del texto del botón */
+  border: none;
+  /* Sin borde */
+  padding: 10px 20px;
+  /* Espaciado interno */
+  border-radius: 5px;
+  /* Borde redondeado */
+  cursor: pointer;
+  /* Cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease;
+  /* Transición suave del color de fondo */
+}
+
+.SearchButton:hover {
+  background-color: #0f4723;
+  /* Color de fondo del botón al pasar el ratón */
+}
+
+.SearchButton:active {
+  transform: translateY(1px);
+  /* Efecto de clic */
+}

@@ -1,0 +1,30 @@
+.Tracklist {
+  width: 100%;
+}
+
+.btn-save {
+  background-color: #1aa149;
+  /* Color de fondo del botón */
+  color: #fff;
+  /* Color del texto del botón */
+  border: none;
+  /* Sin borde */
+  padding: 10px 20px;
+  /* Espaciado interno */
+  border-radius: 5px;
+  /* Borde redondeado */
+  cursor: pointer;
+  /* Cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease;
+  /* Transición suave del color de fondo */
+}
+
+.btn-save:hover {
+  background-color: #0f4723;
+  /* Color de fondo del botón al pasar el ratón */
+}
+
+.btn-save:active {
+  transform: translateY(1px);
+  /* Efecto de clic */
+}

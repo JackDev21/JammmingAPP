@@ -1,0 +1,36 @@
+.Playlist {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  width: 600px;
+  height: 530px;
+  padding: 15px;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+}
+
+.Playlist-input {
+  width: 80%;
+  /* Ancho completo */
+  padding: 10px;
+  /* Espaciado interno */
+  font-size: 16px;
+  /* Tamaño de fuente */
+  border: 1px solid #ccc;
+  /* Borde del input */
+  border-radius: 5px;
+  /* Borde redondeado */
+  box-sizing: border-box;
+  /* Incluir padding y borde en el ancho */
+  margin-bottom: 10px;
+  /* Margen inferior */
+}
+
+.Playlist-input:focus {
+  outline: none;
+  /* Sin contorno al estar enfocado */
+  border-color: #1db954;
+  /* Color del borde al estar enfocado */
+}
